@@ -1,0 +1,243 @@
+$grey: #464547;
+$dark-grey: #1A1A1A;
+$light-grey: #4A4B4C;
+$red: #BF5429;
+$grey-30: #B2B2B2;
+$grey-55: #8A8C8E;
+
+$lane: "lane", Helvetica, sans-serif;
+$opensans: "opensans", Helvetica, sans-serif;
+$oswald: "oswald", sans-serif;
+
+header {
+    background-color: $grey;
+    margin-bottom: 2em;
+    height: 85px;
+    border-bottom: 3px solid $light-grey;
+	border-top: 3px solid $light-grey;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo {
+  margin-top: 15px;
+  float: left;
+  width: 142px;
+  height: 46px;
+  -webkit-transition: background 0.4s;
+  -moz-transition:    background 0.4s;
+  -o-transition:      background 0.4s;
+  background: url(../images/logo.png) no-repeat top left;
+  background-size: 100%;
+  }
+
+
+.logo:hover {
+  -webkit-transition: background 0.4s;
+  -moz-transition:    background 0.4s;
+  -o-transition:      background 0.4s;
+  background: url(../images/logo-hover.png) no-repeat top left;
+  background-size: 100%;
+}
+
+nav {
+		  float: right;
+		  width: 45%;
+		  color: white;
+
+		  	a {
+			  text-decoration:none;
+			  color: white;
+			}
+			a:visited {
+				text-decoration:none;
+				color: white;
+			}
+			a:active {
+				text-decoration:none;
+				color: $red;
+			}
+
+		  ul {
+		  width: 100%;
+		  text-align: justify;
+		  margin: 0px auto;
+		  }
+
+		  li {
+		  display: inline-block;
+		  padding: 27px 10px 0 10px;
+		  text-align: center;
+		  font-size: 16px;
+		  font-weight: 100;
+		  font-family: $oswald;
+		  letter-spacing: 3px;
+		  }
+
+		  i {
+		  	display: none;
+		  	float: right;
+		  	font-size: 2em;
+		  	line-height: 82px;
+		  	padding-right: 12px;
+		  	-webkit-transition: color 0.1s;
+			-moz-transition:    color 0.1s;
+		    -o-transition:      color 0.1s;
+		  }
+
+		  i:hover {
+		  	color: $red;
+		  	-webkit-transition: color 0.1s;
+			-moz-transition:    color 0.1s;
+		    -o-transition:      color 0.1s;
+		  }
+
+		  i.active {
+		  	color: $dark-grey;
+		  }
+
+		  li:hover a {
+			  padding-bottom: 10px;
+			  border-bottom: $red 3px solid;
+			  -webkit-transition: border-bottom 0.1s;
+			  -moz-transition:    border-bottom 0.1s;
+		      -o-transition:      border-bottom 0.1s;
+		  }
+
+		  li:active a {
+			  color: $dark-grey;
+		  }
+
+		  li.spacer {
+			  width: 100%;
+			  font-size: 0px;
+			  opacity: 0;
+		  }
+	}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 980px) {
+
+	nav {
+
+		  li {
+		  display: inline-block;
+		  padding: 27px 10px 0 10px;
+		  text-align: center;
+		  font-size: 16px;
+		  font-weight: 100;
+		  font-family: $oswald;
+		  letter-spacing: 3px;
+		  }
+
+		  li:hover a {
+		  padding-bottom: 10px;
+		  border-bottom: $red 3px solid;
+		  -webkit-transition: border-bottom 0.1s;
+		  -moz-transition:    border-bottom 0.1s;
+	      -o-transition:      border-bottom 0.1s;
+		  }
+
+		  li.spacer {
+		  width: 100%;
+		  font-size: 0px;
+		  opacity: 0;
+		  }
+	}
+
+}
+
+header {
+	padding: 0 20px;
+}
+
+@media (max-width: 700px) {
+
+	nav {
+		width: 200px;
+
+		ul {
+			display: none;
+		}
+
+		ul.active {
+		  display: inline-block;
+	  	  border-bottom: 10px solid $red;
+	  	  background-color: #F2F2F2;
+	  	  position: relative;
+	  	  left: 20px;
+
+		  li {
+		  	width: 100%;
+		  	background-color: white;
+		  	margin: 3px 3px 0 3px;
+		  	padding: 22px 0;
+		  }
+
+		  li:hover a {
+			  padding-bottom: 6px;
+		  }
+
+		  a {
+		  	color: $red;
+		  }
+
+		  a:active {
+		  	color: $dark-grey;
+		  }
+
+		  li.spacer {
+		  	display: none;
+		  }
+		}
+
+		i {
+			display: block;
+		}
+
+		i:active{
+			color: $dark-grey;
+		}
+
+		i.active:hover {
+			color: $red;
+		}
+
+		i.active:active {
+			color: white;
+		}
+
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	nav {
+		width: 160px;
+		}
+
+	.logo {
+	  width: 55px;
+	  background: url(../images/logo-m.png) no-repeat top left;
+	  background-size: 100%;
+	  -webkit-transition: background 0s;
+	  -moz-transition:    background 0s;
+	  -o-transition:      background 0s;
+	  }
+
+
+	.logo:hover {
+	  background: url(../images/logo-hover-m.png) no-repeat top left;
+  	  background-size: 100%;
+	}
+
+}
+
+
+
+

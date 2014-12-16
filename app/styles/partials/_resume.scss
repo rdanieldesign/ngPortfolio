@@ -1,0 +1,53 @@
+$grey: #464547;
+$dark-grey: #1A1A1A;
+$light-grey: #4A4B4C;
+$red: #BF5429;
+$grey-30: #B2B2B2;
+$grey-55: #8A8C8E;
+
+$lane: "lane", Helvetica, sans-serif;
+$opensans: "opensans", Helvetica, sans-serif;
+$oswald: "oswald", sans-serif;
+
+.resume {
+
+	li {
+		border-bottom: 6px solid #F2F2F2;
+		padding-bottom: 40px;
+		margin-bottom: 40px;
+
+		&:last-child {
+			border-bottom: none;
+			margin-bottom: 0;
+		}
+	}
+
+	.res-cols {
+
+		div {
+			border-left: 3px solid #F2F2F2;
+			padding-left: 2%;
+
+		}
+
+		&:first-child {
+			border-left: none;
+			padding: 0;
+		}
+	}
+
+	h4 {
+		color: $red;
+		font-family: $oswald;
+		font-weight: 100;
+		font-size: 1.4em;
+		letter-spacing: 3px;
+	}
+
+	h6 {
+		color: $dark-grey;
+		font-family: $opensans;
+		font-size: 1em;
+	}
+
+}

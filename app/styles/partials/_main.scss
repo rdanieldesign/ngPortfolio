@@ -1,0 +1,99 @@
+$grey: #464547;
+$dark-grey: #1A1A1A;
+$light-grey: #4A4B4C;
+$red: #BF5429;
+$grey-30: #B2B2B2;
+$grey-55: #8A8C8E;
+
+$lane: "lane", Helvetica, sans-serif;
+$opensans: "opensans", Helvetica, sans-serif;
+$oswald: "oswald", sans-serif;
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+ }
+
+a {
+  cursor: pointer;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+.full {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.column-2 {
+    width: 66%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.column-1 {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.golden-large {
+    width: 60%;
+    display: inline-block;
+}
+
+.golden-small {
+    width: 39%;
+    display: inline-block;
+}
+
+.title {
+  border-top: $grey solid 1.5px;
+  border-bottom: $grey solid 1.5px;
+  font-family: $lane;
+  color: $grey;
+  text-align: center;
+  font-size: 48px;
+  line-height: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+p {
+  font-family: $opensans;
+  font-size: 16px;
+  line-height: 27px;
+  color: $grey-55;
+}
+
+.clear {
+  width: 100%;
+  font-size: 0em;
+  line-height: 0;
+  display: inline-block;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 910px) {
+
+
+
+}

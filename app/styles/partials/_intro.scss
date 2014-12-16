@@ -1,0 +1,141 @@
+$grey: #1F1F1F;
+$dark-grey: #1A1A1A;
+$light-grey: #4A4B4C;
+$red: #BF5429;
+$grey-30: #B2B2B2;
+$grey-55: #737373;
+
+$lane: "lane", Helvetica, sans-serif;
+$opensans: "opensans", Helvetica, sans-serif;
+
+.intro {
+	background: url(../images/bufallo-red.jpg) center;
+	background-size: 100%;
+	background-color: $red;
+	color: white;
+	font-family:$lane;
+	letter-spacing: 20px;
+	padding: 7% 0;
+
+	h1 {
+		font-size: 160px;
+		line-height: 100px;
+		opacity: 0.8;
+	}
+
+	p {
+		font-size: 60px;
+		line-height: 72px;
+		opacity: 0.8;
+		letter-spacing: .1em;
+		color: white;
+		font-family:$lane;
+	}
+
+	hr {
+		width: 12em;
+		margin: 0 auto;
+		border: none;
+		height: 2px;
+		background-color: white;
+		opacity: 0.8;
+	}
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 980px) {
+
+	.intro {
+		background-size: 125%;
+		padding-left: 20px;
+	}
+
+}
+
+@media (max-width: 750px) {
+
+	.intro {
+		padding: 12% 0 8% 20px;
+
+		h1 {
+			font-size: 120px;
+			line-height: 80px;
+			letter-spacing: 16px;
+		}
+
+		p {
+			font-size: 50px;
+			line-height: 56px;
+		}
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	.intro {
+		background-size: 150%;
+	}
+
+}
+
+@media (max-width: 550px) {
+
+	.intro {
+		padding: 16% 0 12% 20px;
+
+		h1 {
+			font-size: 100px;
+			line-height: 66px;
+			letter-spacing: 14px;
+		}
+
+		p {
+			font-size: 40px;
+			line-height: 46px;
+		}
+	}
+
+}
+
+@media (max-width: 450px) {
+
+	.intro {
+		padding: 20% 0 16% 20px;
+		background-size: 160%;
+
+		h1 {
+			font-size: 80px;
+			line-height: 56px;
+		}
+
+		p {
+			font-size: 30px;
+			line-height: 36px;
+		}
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	.intro {
+		background-size: 180%;
+		padding: 24% 0 16% 20px;
+
+
+		h1 {
+				font-size: 60px;
+				line-height: 36px;
+			}
+
+		p {
+			font-size: 20px;
+			line-height: 26px;
+		}
+	}
+
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>AngularPortfolo</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body ng-app="Portfolio">
+
+    <header class="full">
+      <div class="container">
+        <a href="#/">
+          <div class="logo"></div>
+        </a>
+        <nav>
+          <i id="hamburger" class="fi-list"></i>
+          <ul>
+            <li><a href="#/">WORK</a></li>
+            <li><a href="#/">CONTACT</a></li>
+            <li><a href="#/resume">RESUME</a></li>
+            <li class="spacer"></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="intro full">
+      <div class="container">
+        <h1> HELLO.</h1>
+        <p> I'm Richard, and I help shape the web. </p>
+      </div>
+    </div>
+    <div id="projects" class="work-container">
+      <div class="container">
+
+        <!-- Dyanmic container -->
+        <span ng-view autoscroll="true">
+
+        </span> <!-- End Dynamic Container -->
+      </div>
+    </div>
+    <div id="about" class="full">
+      <ul class="container profile">
+        <li class="column-1 profile-image">
+          <img src="images/profile1.jpg" />
+        </li>
+        <li class="column-2">
+          <h3> Nice to meet you. </h3>
+          <p> I'm Richard, a graphic designer and aspiring web developer currently living and working in Birmingham, AL. I spend my time learning how to make things work and exploring a variety of creative outlets. When I'm not at my desk, I'm a skateboarder, hiker, and an overall adventure enthusiast. </p>
+        </li>
+        <li id="contact" class="full">
+          <ul class="profile-links">
+            <a href="mailto:rdanieldesign@gmail.com">
+              <li class="column-1 contact">
+                <i class="fi-mail"></i>
+                <p>rdanieldesign</p>
+              </li>
+            </a>
+            <a href="tel:6788222067">
+              <li class="column-1 contact">
+                <i class="fi-telephone"></i>
+                <p>678.822.2067</p>
+              </li>
+            </a>
+            <a href="resume.pdf">
+              <li class="column-1 contact">
+                <i class="fi-page"></i>
+                <p>Resume</p>
+              </li>
+            </a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="social">
+      <ul class="container">
+        <li><a href="https://www.facebook.com/richard.daniel.75491"><i class="fi-social-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/rdaniel7"><i class="fi-social-instagram"></i></a></li>
+        <li><a href="https://www.twitter.com/rdaniel_design"><i class="fi-social-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/profile/view?id=181642079&trk=spm_pic"><i class="fi-social-linkedin"></i></a></li>
+        <li><a href="https://www.behance.net/richarddaniel"><i class="fi-social-behance"></i></a></li>
+        <li><a href="https://github.com/rdanieldesign"><i class="fi-social-github"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-route/angular-route.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/projects.js"></script>
+        <script src="scripts/controllers/home_controller.js"></script>
+        <script src="scripts/controllers/single_controller.js"></script>
+        <script src="scripts/controllers/resume_controller.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

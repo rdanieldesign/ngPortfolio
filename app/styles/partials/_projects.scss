@@ -1,0 +1,38 @@
+$width1: 840px;
+$width2: 750px;
+$width3: 610px;
+$width4: 400px;
+
+$red: #bc522a;
+$black: #333132;
+$grey: #EEEEEE;
+
+.project-info {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 38%;
+  height: 100%;
+  padding: 150px 5% 40px 5%;
+  background-color: $grey;
+  overflow: scroll;
+}
+
+.project-images {
+  display: block;
+  position: absolute;
+  top: 0; bottom: 0; left: 38%;
+  width: 62%;
+  height: 100%;
+  overflow: scroll;
+
+  li {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  img {
+    width: 98%;
+  }
+}
