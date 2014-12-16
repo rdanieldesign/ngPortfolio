@@ -9,6 +9,14 @@ $lane: "lane", Helvetica, sans-serif;
 $opensans: "opensans", Helvetica, sans-serif;
 $oswald: "oswald", sans-serif;
 
+.resume-container {
+	background-color: #FFFFFF;
+	width: 100%;
+	max-width: 960px;
+	padding: 0 30px;
+	margin: 60px auto 0 auto;
+}
+
 .resume {
 
 	li {
@@ -50,4 +58,18 @@ $oswald: "oswald", sans-serif;
 		font-size: 1em;
 	}
 
+}
+
+@media (max-width: 600px){
+
+	.resume {
+
+		.res-cols div {
+			border-left: none;
+		}
+
+		.column-1 {
+			width: 100%;
+		}
+	}
 }
