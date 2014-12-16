@@ -73,6 +73,37 @@ var allProjects = [
 		webLink: 'http://rdanieldesign.github.io/FishingApp/index.html#/',
 		thumb: 'fly-thumb.jpg',
 		images: ['images/fly-details-m.jpg', 'images/fly-grid-d.jpg', 'images/fly-filters-d.jpg', 'images/fly-river-d.jpg']
+	},
+
+	// Bricks
+	{
+		link: 'bricks',
+		title: 'Bricks: a To-Do App',
+		copy: "Bricks is a simple to-do application that allows users to create to-do items, mark them as completed when done, and clear completed items. Users can also filter to-do items by complete, active, and all. I collaborated on this project with Andrew El-Masry.",
+		webLink: 'http://andrewelmasry.com/toDoApp/',
+		thumb: 'bricks-thumb.jpg',
+		images: ['images/bricks-m.jpg', 'images/bricks-d.jpg']
+	},
+
+	// Word Bucket
+	{
+		link: 'wordBucket',
+		title: 'Word Bucket',
+		copy: "Word Bucket is a blogging app built on Backbone and Parse. Users can create an account, write posts, publish or save as a draft, and read other's posts. We also added a comments section where users can comment on one another's posts if they are logged in. I collaborated on this project with Wendy Nichols.",
+		webLink: 'http://wendynichols.github.io/Blog_project/',
+		thumb: 'wordbucket-thumb.jpg',
+		images: ['images/wordbucket-main.jpg', 'images/wordbucket-post.jpg', 'images/wordbucket-m.jpg']
+	},
+
+	// Fork and Spoon
+	{
+		link: 'forkAndSpoon',
+		title: 'Fork & Spoon',
+		copy: "Fork & Spoon is a fictional neighborhood cafe located in Flushing, NY.",
+		webLink: 'http://rdanieldesign.github.io/RestaurantTIY/',
+		thumb: 'fork-thumb.jpg',
+		images: ['images/fork-main.jpg', 'images/fork-menu.jpg', 'images/fork-m.jpg']
 	}
+
 
 ];
