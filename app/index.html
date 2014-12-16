@@ -22,7 +22,7 @@
     <!-- endbuild -->
   </head>
   <body ng-app="Portfolio">
-
+    <!-- Start Nav Bar -->
     <header class="full">
       <div class="container">
         <a href="#/">
@@ -39,21 +39,10 @@
         </nav>
       </div>
     </header>
-    <div class="intro full">
-      <div class="container">
-        <h1> HELLO.</h1>
-        <p> I'm Richard, and I help shape the web. </p>
-      </div>
-    </div>
-    <div id="projects" class="work-container">
-      <div class="container">
+    <!-- End Nav Bar -->
+    
+    <span ng-view autoscroll="true"></span>
 
-        <!-- Dyanmic container -->
-        <span ng-view autoscroll="true">
-
-        </span> <!-- End Dynamic Container -->
-      </div>
-    </div>
     <div id="about" class="full">
       <ul class="container profile">
         <li class="column-1 profile-image">

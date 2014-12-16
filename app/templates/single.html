@@ -1,11 +1,15 @@
-<ul class="container-individual">
-	<li class="golden-small project-description">
-		<h2 class="title-individual">{{ single.title }}</h2>
-		<p>{{ single.copy }}</p>
-		<a class="textlink" ng-if="single.webLink" href="{{ single.webLink }}">Visit Website</a>
-		<a href="#/single/{{ nextLink }}" class="textlink">Next Project<i class="fi-arrow-right"></i></a>
-	</li>
-	<li class="golden-large images-individual">
-		<img ng-src="{{ image }}" ng-repeat="image in images">
-	</li>
-</ul>
+<div id="projects" class="work-container">
+	<div class="container">
+		<ul class="container-individual">
+			<li class="golden-small project-description">
+				<h2 class="title-individual">{{ single.title }}</h2>
+				<p>{{ single.copy }}</p>
+				<a class="textlink" ng-if="single.webLink" href="{{ single.webLink }}">Visit Website</a>
+				<a href="#/single/{{ nextLink }}" class="textlink">Next Project<i class="fi-arrow-right"></i></a>
+			</li>
+			<li class="golden-large images-individual">
+				<img ng-src="{{ image }}" ng-repeat="image in images">
+			</li>
+		</ul>
+	</div>
+</div>
