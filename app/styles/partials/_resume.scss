@@ -13,7 +13,7 @@ $oswald: "oswald", sans-serif;
 	background-color: #FFFFFF;
 	width: 100%;
 	max-width: 960px;
-	padding: 0 30px;
+	padding: 60px 30px 0 30px;
 	margin: 60px auto 0 auto;
 }
 
@@ -32,15 +32,28 @@ $oswald: "oswald", sans-serif;
 
 	.res-cols {
 
+		h5 {
+			margin-bottom: 1.4em;
+		}
+
 		div {
 			border-left: 3px solid #F2F2F2;
 			padding-left: 2%;
-
 		}
 
 		&:first-child {
 			border-left: none;
 			padding: 0;
+		}
+	}
+
+	.res-list {
+
+		li {
+			color: $grey-55;
+			border-bottom: none;
+			padding-bottom: 0;
+			margin-bottom: 1em;
 		}
 	}
 
@@ -52,15 +65,49 @@ $oswald: "oswald", sans-serif;
 		letter-spacing: 3px;
 	}
 
-	h6 {
+	h5 {
 		color: $dark-grey;
 		font-family: $opensans;
 		font-size: 1em;
+		margin: .3em 0;
+	}
+
+	h6 {
+		color: $grey-55;
+		font-family: $opensans;
+		font-size: .8em;
+		margin: .4em 0 1.4em 0;
+	}
+
+	a {
+		color: $red;
+		font-family: $opensans;
+		font-size: .8em;
+		margin-left: 10px;
+
+		&:hover {
+			color: $dark-grey;
+		}
+	}
+
+	p {
+		margin-bottom: 60px;
 	}
 
 }
 
 @media (max-width: 600px){
+
+	h4, h5, h6 {
+		text-align: center;
+	}
+
+	.resume-container {
+
+		p {
+			text-align: justify;
+		}
+	}
 
 	.resume {
 
@@ -70,6 +117,26 @@ $oswald: "oswald", sans-serif;
 
 		.column-1 {
 			width: 100%;
+		}
+	}
+
+	.res-list {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 400px){
+
+	.resume {
+
+		a {
+			display: inline-block;
+			width: 100%;
+		}
+
+		p {
+			text-align: left;
 		}
 	}
 }
