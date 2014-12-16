@@ -1,3 +1,19 @@
-## Yo, I'm a Readme
+## Portfolio
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+I decided to rework my portfolio using AngularJS to make it easier to add new projects.
+
+#### Tech
+
+* AngularJS
+* jQuery
+* Underscore
+* Sass
+* Modernizr
+* Normalize.css
+* Bourbon / Neat
+
+#### Other Stuff
+
+* Foundation Icons
+
+
