@@ -32,4 +32,12 @@
 
 	}]);
 
+	// .directive('scrollTo', ['$anchorScroll', '$location', function($anchorScroll, $location, element){
+	//  	element.bind('click', function(){
+	// 		console.log('hey');
+	// 		$location.hash('contact');
+	// 		$anchorScroll();
+	// 	});
+	// }]);
+
 }());
