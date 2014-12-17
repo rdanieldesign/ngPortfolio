@@ -32,6 +32,14 @@
 
 	}]);
 
+	// .directive('scrollTo', ['$anchorScroll', '$location', function($anchorScroll, $location, element){
+	//  	element.bind('click', function(){
+	// 		console.log('hey');
+	// 		$location.hash('contact');
+	// 		$anchorScroll();
+	// 	});
+	// }]);
+
 }());
 var allProjects = [
 
@@ -155,9 +163,15 @@ var allProjects = [
 
 	angular.module('Portfolio')
 
-	.controller('Home', ['$scope', '$rootScope', function($scope, $rootScope){
+	.controller('Home', ['$scope', '$rootScope', '$anchorScroll', '$location', function($scope, $rootScope, $anchorScroll, $location){
 
 		$scope.projects = $rootScope.projects;
+
+		$scope.scrollTo = function(section){
+			console.log(section);
+			$location.hash(section);
+			$anchorScroll();
+		};
 
 	}]);
 
