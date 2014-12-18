@@ -28,16 +28,18 @@
 		$('#hamburger').click(function(){
 			$(this).toggleClass('active');
 			$('nav ul').toggleClass('active');
+			$('ul.active').children().click(function(){
+				$('.active').removeClass('active');
+			});
+		});
+
+		$(window).on("hashchange", function () {
+			if(window.scrollY > 0){
+				console.log('scrolled');
+				window.scrollTo(window.scrollX, window.scrollY - 85);
+			}
 		});
 
 	}]);
-
-	// .directive('scrollTo', ['$anchorScroll', '$location', function($anchorScroll, $location, element){
-	//  	element.bind('click', function(){
-	// 		console.log('hey');
-	// 		$location.hash('contact');
-	// 		$anchorScroll();
-	// 	});
-	// }]);
 
 }());
