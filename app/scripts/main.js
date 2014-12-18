@@ -35,8 +35,9 @@
 
 		$(window).on("hashchange", function () {
 			if(window.scrollY > 0){
-				console.log('scrolled');
-				window.scrollTo(window.scrollX, window.scrollY - 85);
+				window.setTimeout(function(){
+					window.scrollTo(window.scrollX, window.scrollY - 80)
+				}, 20);
 			}
 		});
 
