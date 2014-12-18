@@ -38,7 +38,7 @@
 				window.setTimeout(function(){
 					window.scrollTo(window.scrollX, window.scrollY - 80)
 				}, 20);
-			}
+			};
 		});
 
 	}]);
