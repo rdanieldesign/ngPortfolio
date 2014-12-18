@@ -67,7 +67,7 @@ var allProjects = [
 	{
 		link: 'forkAndSpoon',
 		title: 'Fork & Spoon',
-		copy: "Fork & Spoon is a fictional neighborhood cafe located in Flushing, NY.",
+		copy: "Fork & Spoon is a fictional neighborhood cafe located in Flushing, NY. My team built a website for this restaurant that featured dynamic content from a custom Apiary API, the Google Maps API, and the Flickr API. I collaborated on this project with Dean Gilewicz, John Crocker, and Joanna Edgell.",
 		webLink: 'http://rdanieldesign.github.io/RestaurantTIY/',
 		thumb: 'fork-thumb.jpg',
 		images: ['images/fork-main.jpg', 'images/fork-menu.jpg', 'images/fork-m.jpg']
@@ -101,35 +101,35 @@ var allProjects = [
 		webLink: 'http://dev.summersays.com',
 		thumb: 'thumb-summer.jpg',
 		images: ['images/ss-home.jpg', 'images/ss-grid.jpg', 'images/ss-single.jpg']
-	},
+	}
 
 	// Email
-	{
-		link: 'BAMemails',
-		title: 'BAM! Emails',
-		copy: "A large part of my job at BAM is designing and coding emails. These email blasts were created for a variety of purposes, including promoting events, advertising products, and announcing sales.",
-		thumb: 'thumb-email.jpg',
-		images: ['images/email-armed.jpg', 'images/email-armed2.jpg','images/email-summer.jpg','images/email-summer2.jpg','images/email-flash.jpg','images/email-flash2.jpg', ]
-	},
+	// {
+	// 	link: 'BAMemails',
+	// 	title: 'BAM! Emails',
+	// 	copy: "A large part of my job at BAM is designing and coding emails. These email blasts were created for a variety of purposes, including promoting events, advertising products, and announcing sales.",
+	// 	thumb: 'thumb-email.jpg',
+	// 	images: ['images/email-armed.jpg', 'images/email-armed2.jpg','images/email-summer.jpg','images/email-summer2.jpg','images/email-flash.jpg','images/email-flash2.jpg', ]
+	// },
 
 	// EBM
-	{
-		link: 'BAMpublishing',
-		title: 'BAM! Publishing',
-		copy: "BAM! Publishing is a print on-demand service that Books-A-Million offers to customers who want to produce their own work or books that have gone out of print. O2 Ideas did a great job with the branding and site design. After the initial site launch, BAM! decided that we needed to provide a search function for users to find available titles for print, as well as template options for those who wanted to format their own work for production. Utilizing the styles established by O2 and search scripts created by our internal developer, I developed a responsive search page as well as a cover templates page and an interior templates page.",
-		webLink: 'http://www.bampublish.com',
-		thumb: 'thumb-ebm.jpg',
-		images: ['images/ebm-search.jpg', 'images/ebm-covers.jpg', 'images/ebm-templates.jpg']
-	},
+	// {
+	// 	link: 'BAMpublishing',
+	// 	title: 'BAM! Publishing',
+	// 	copy: "BAM! Publishing is a print on-demand service that Books-A-Million offers to customers who want to produce their own work or books that have gone out of print. O2 Ideas did a great job with the branding and site design. After the initial site launch, BAM! decided that we needed to provide a search function for users to find available titles for print, as well as template options for those who wanted to format their own work for production. Utilizing the styles established by O2 and search scripts created by our internal developer, I developed a responsive search page as well as a cover templates page and an interior templates page.",
+	// 	webLink: 'http://www.bampublish.com',
+	// 	thumb: 'thumb-ebm.jpg',
+	// 	images: ['images/ebm-search.jpg', 'images/ebm-covers.jpg', 'images/ebm-templates.jpg']
+	// },
 
 	// ConcreteCanvas
-	{
-		link: 'concreteCanvas',
-		title: 'Concrete Canvas',
-		copy: "Concrete Canvas is a skateboard shop located in Auburn, Alabama, a town with a large population of skateboarders who are currently forced to purchase products online or from neighboring cities. This shop prides itself on emphasizing skateboarding as an art rather than a sport, viewing the activity as a creative interpretation of one’s surrounding landscape in a physical manner. Contemporary skate shops have taken the role as a community center and headquarters for local skateboarders; while maintaining the function of providing necessary products for skateboarding, shops also carry the responsibility of promoting the local skate scene. Concrete Canvas is an operation run purely for skateboarders by skateboarders. We intend to create unity in a scattered skateboarding scene by emphasizing key values in the community. The aesthetic of Concrete Canvas is based on the contrast between the vibrant and energetic appeal of skateboarding and the stony, urban environment that skateboarders thrive in. Finding the creative potential in overlooked or abandoned architectural structures is skateboarding’s highest calling, and this theme is presented outright in Concrete Canvas’s color scheme: radiating orange, yellow, and red emerging from fields of rigid gray.",
-		thumb: 'thumb-cc.jpg',
-		images: ['images/cc-boards.jpg', 'images/cc-boxes1.jpg', 'images/cc-boxes2.jpg', 'images/cc-bags.jpg', 'images/cc-all.jpg']
-	}
+	// {
+	// 	link: 'concreteCanvas',
+	// 	title: 'Concrete Canvas',
+	// 	copy: "Concrete Canvas is a skateboard shop located in Auburn, Alabama, a town with a large population of skateboarders who are currently forced to purchase products online or from neighboring cities. This shop prides itself on emphasizing skateboarding as an art rather than a sport, viewing the activity as a creative interpretation of one’s surrounding landscape in a physical manner. Contemporary skate shops have taken the role as a community center and headquarters for local skateboarders; while maintaining the function of providing necessary products for skateboarding, shops also carry the responsibility of promoting the local skate scene. Concrete Canvas is an operation run purely for skateboarders by skateboarders. We intend to create unity in a scattered skateboarding scene by emphasizing key values in the community. The aesthetic of Concrete Canvas is based on the contrast between the vibrant and energetic appeal of skateboarding and the stony, urban environment that skateboarders thrive in. Finding the creative potential in overlooked or abandoned architectural structures is skateboarding’s highest calling, and this theme is presented outright in Concrete Canvas’s color scheme: radiating orange, yellow, and red emerging from fields of rigid gray.",
+	// 	thumb: 'thumb-cc.jpg',
+	// 	images: ['images/cc-boards.jpg', 'images/cc-boxes1.jpg', 'images/cc-boxes2.jpg', 'images/cc-bags.jpg', 'images/cc-all.jpg']
+	// }
 
 	// UCP
 	// {
