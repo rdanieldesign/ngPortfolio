@@ -30,6 +30,24 @@ $oswald: "oswald", sans-serif;
   padding-right: 40px;
   text-align: left;
 
+  h3 {
+    font-family: $lane;
+    font-size: 26px;
+    color: $grey;
+    border-bottom: 1px solid $grey;
+    padding-bottom: 8px;
+    margin: 40px 0 18px 0;
+    display: inline-block;
+  }
+
+  .stack {
+    font-family: $opensans;
+    font-size: 16px;
+    line-height: 27px;
+    color: $grey-55;
+    margin-bottom: 40px;
+  }
+
   a {
     color: #1F1F1F;
   }
@@ -117,34 +135,34 @@ $oswald: "oswald", sans-serif;
 
       .title-individual {
         text-align: center;
-        display: inline-block;
-        width: 30%;
+        width: 40%;
+        display: block;
+        margin: 0 auto;
         font-size: 36px;
         line-height: 50px;
-        margin: 0 5% 0 0;
-        vertical-align: top;
       }
 
       p {
-        text-align: left;
-        width: 64%;
-        display: inline-block;
-        vertical-align: top;
-        margin: 0;
-        position: relative;
-        top: -8px;
+        width: 100%;
+        display: block;
+        margin: 60px 0 0 0;
       }
 
-      a.textlink {
-        margin-left: 36%;
-        display: inline-block;
-        width: 30%;
-        vertical-align: top;
-        padding: 10px 0 40px 0;
+      .tech {
+        width: 50%;
+        float: left;
       }
 
-      a.textlink:nth-child(4) {
-        margin: 0;
+      .projectLinks {
+        width: 50%;
+        margin: 40px 0;
+        padding-top: 10px;
+        float: left;
+
+        a {
+          display: block;
+          width: 100%;
+        }
       }
 
     }
@@ -178,21 +196,6 @@ $oswald: "oswald", sans-serif;
         display: block;
         margin: 60px 0 0 0;
       }
-
-      a.textlink {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-        line-height: 14px;
-        padding: 20px 0 40px 0;
-        text-align: center;
-      }
-
-      a.textlink:nth-child(4) {
-        margin: 0 auto;
-        padding-bottom: 60px;
-      }
-
     }
   }
 
@@ -210,6 +213,23 @@ $oswald: "oswald", sans-serif;
 
       p {
         margin-bottom: 30px;
+      }
+
+      .tech {
+        width: 100%;
+        float: none;
+        text-align: center;
+      }
+
+      .projectLinks {
+        width: 100%;
+        float: none;
+
+        a {
+          text-align: center;
+          display: block;
+          width: 100%;
+        }
       }
 
       a.textlink:hover i {

@@ -6,8 +6,10 @@ var allProjects = [
 		title: 'Flycast',
 		copy: "Flycast is a web application that allows fly fishermen to compare the conditions of other users' successful fishing trips in order to make informed decisions on how to fish during similar trips. Users document a catch by simply taking a picture, then the application gets the user's geolocation and uses this information to gather data on the current conditions at that user's location. All of this information is then organized by river or stream for later analysis. Users can then filter catches by specific conditions in preparation for their trip.",
 		webLink: 'http://rdanieldesign.github.io/FishingApp/index.html#/',
+		ghLink: 'https://github.com/rdanieldesign/FishingApp',
 		thumb: 'fly-thumb.jpg',
-		images: ['images/fly-details-m.jpg', 'images/fly-grid-d.jpg', 'images/fly-river-d.jpg']
+		images: ['images/fly-details-m.jpg', 'images/fly-grid-d.jpg', 'images/fly-river-d.jpg'],
+		tech: ['AngularJS', 'Parse', 'Underscore', 'Bourbon/Neat', 'Sass', 'jQuery']
 	},
 
 	// Word Bucket
