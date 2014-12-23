@@ -16,30 +16,36 @@ var allProjects = [
 	{
 		link: 'wordBucket',
 		title: 'Word Bucket',
-		copy: "Word Bucket is a blogging app built on Backbone and Parse. Users can create an account, write posts, publish or save as a draft, and read other's posts. We also added a comments section where users can comment on one another's posts if they are logged in. I collaborated on this project with Wendy Nichols.",
+		copy: "Word Bucket is a blogging app built on Backbone and Parse. Users can create an account, write posts, publish or save as a draft, and read other's posts. We also added a comments section where users can comment on one another's posts if they are logged in. I collaborated on this project with another front end developer.",
 		webLink: 'http://wendynichols.github.io/Blog_project/',
+		ghLink: 'https://github.com/wendynichols/Blog_project',
 		thumb: 'wordbucket-thumb2.jpg',
-		images: ['images/wordbucket-main.jpg', 'images/wordbucket-post.jpg', 'images/wordbucket-m.jpg']
+		images: ['images/wordbucket-main.jpg', 'images/wordbucket-post.jpg', 'images/wordbucket-m.jpg'],
+		tech: ['Backbone.js', 'Parse JavaScript SDK', 'jQuery', 'Underscore', 'Bourbon/Neat', 'Sass']
 	},
 
 	// Fork and Spoon
 	{
 		link: 'forkAndSpoon',
 		title: 'Fork & Spoon',
-		copy: "Fork & Spoon is a fictional neighborhood cafe located in Flushing, NY. My team built a website for this restaurant that featured dynamic content from a custom Apiary API, the Google Maps API, and the Flickr API. I collaborated on this project with Dean Gilewicz, John Crocker, and Joanna Edgell.",
+		copy: "Fork & Spoon is a fictional neighborhood cafe located in Flushing, NY. My team built a website for this restaurant that featured dynamic content from a custom Apiary API, the Google Maps API, and the Flickr API. I collaborated on this project with three other front end developers.",
 		webLink: 'http://rdanieldesign.github.io/RestaurantTIY/',
+		ghLink: 'https://github.com/rdanieldesign/RestaurantTIY',
 		thumb: 'fork-thumb.jpg',
-		images: ['images/fork-main.jpg', 'images/fork-menu.jpg', 'images/fork-m.jpg']
+		images: ['images/fork-main.jpg', 'images/fork-menu.jpg', 'images/fork-m.jpg'],
+		tech: ['jQuery', 'Underscore', 'Bourbon/Neat/Bitters', 'Sass', 'Google Maps API', 'Flickr API', 'Custom Apiary API']
 	},
 
 	// Bricks
 	{
 		link: 'bricks',
 		title: 'Bricks: a To-Do App',
-		copy: "Bricks is a simple to-do application that allows users to create to-do items, mark them as completed when done, and clear completed items. Users can also filter to-do items by complete, active, and all. I collaborated on this project with Andrew El-Masry.",
+		copy: "Bricks is a simple to-do application that allows users to create to-do items, mark them as completed when done, and clear completed items. Users can also filter to-do items by complete, active, and all. I collaborated on this project with another front end developer.",
 		webLink: 'http://andrewelmasry.com/toDoApp/',
+		ghLink: 'https://github.com/elmasrya/toDoApp',
 		thumb: 'bricks-thumb.jpg',
-		images: ['images/bricks-m.jpg', 'images/bricks-d.jpg']
+		images: ['images/bricks-m.jpg', 'images/bricks-d.jpg'],
+		tech: ['jQuery', 'Underscore', 'Bourbon/Neat/Bitters', 'Sass', 'Mocha', 'Chai']
 	},
 
 	// Trailer Park Shootout
@@ -48,8 +54,10 @@ var allProjects = [
 		title: 'Trailer Park Shootout',
 		copy: "This is a trailer park themed first-person shooter using jQuery animations and CSS sprites. Pro tip: use the rifle. If you can beat the final boss with a pistol then you're probably taking this too seriously.",
 		webLink: 'http://rdanieldesign.github.io/TurnGame/',
+		ghLink: 'https://github.com/rdanieldesign/TurnGame',
 		thumb: 'trailer-thumb.jpg',
-		images: ['images/trailer-main.jpg', 'images/trailer-deer.jpg']
+		images: ['images/trailer-main.jpg', 'images/trailer-deer.jpg'],
+		tech: ['jQuery', 'Underscore', 'Sass']
 	},
 
 	// SummerSays
@@ -59,7 +67,8 @@ var allProjects = [
 		copy: "Summer Anderson, Books-A-Million's top trendspotter, wanted to revamp her online presence and transform her site into a more image-oriented, blog-inspired destination for fashion and literature enthusiasts. To do this, I designed and developed a custom Wordpress theme that included a simple Pinterest-like masonry layout, infinite scroll, and Instagram integration that not only helped Summer's finds take center stage but made it possible for her to generate content on the fly with ease.",
 		webLink: 'http://dev.summersays.com',
 		thumb: 'thumb-summer.jpg',
-		images: ['images/ss-home.jpg', 'images/ss-grid.jpg', 'images/ss-single.jpg']
+		images: ['images/ss-home.jpg', 'images/ss-grid.jpg', 'images/ss-single.jpg'],
+		tech: ['PHP', 'jQuery', 'Sass', 'WordPress']
 	}
 
 	// Email
