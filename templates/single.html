@@ -4,8 +4,19 @@
 			<li class="golden-small project-description">
 				<h2 class="title-individual">{{ single.title }}</h2>
 				<p>{{ single.copy }}</p>
-				<a class="textlink" ng-if="single.webLink" href="{{ single.webLink }}">See It Live</a>
-				<a href="#/single/{{ nextLink }}" class="textlink">Next Project<i class="fi-arrow-right"></i></a>
+				<div class="tech">
+					<h3>Tech Stack</h3>
+					<ul class="stack">
+						<li ng-repeat="tech in techs">
+							{{ tech }}
+						</li>
+					</ul>
+				</div>
+				<div class="projectLinks">
+					<a class="textlink" ng-if="single.webLink" href="{{ single.webLink }}">See It Live</a>
+					<a class="textlink" ng-if="single.ghLink" href="{{ single.ghLink }}">See the Code</a>
+					<a href="#/single/{{ nextLink }}" class="textlink">Next Project<i class="fi-arrow-right"></i></a>
+				</div>
 			</li>
 			<li class="golden-large images-individual">
 				<img ng-src="{{ image }}" ng-repeat="image in images">
