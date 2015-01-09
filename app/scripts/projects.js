@@ -24,6 +24,18 @@ var allProjects = [
 		tech: ['Backbone.js', 'Parse JavaScript SDK', 'jQuery', 'Underscore', 'Bourbon/Neat', 'Sass']
 	},
 
+	// GA Natural Disasters
+	{
+		link: 'gaDisasters',
+		title: 'Georgia Natural Disasters',
+		copy: "This application provides an interface that helps the user visualize and recognize patterns in all instances of natural disaster in the state of Georgia between 2010 and 2013. Users can view instance  details by clicking on an individual disaster. Each disaster type is given a different color, which can be interpreted in the key. Users are also able to filter the data by type, county, fatalities, injuries, property damage, and crop damage in the filters tab.",
+		webLink: 'http://rdanieldesign.github.io/eChallenge/#/',
+		ghLink: 'https://github.com/rdanieldesign/eChallenge',
+		thumb: 'ga-thumb.jpg',
+		images: ['images/ga-main.jpg', 'images/ga-key.jpg', 'images/ga-m.jpg'],
+		tech: ['AngularJS', 'Underscore', 'Sass']
+	},
+
 	// Fork and Spoon
 	{
 		link: 'forkAndSpoon',
