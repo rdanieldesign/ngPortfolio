@@ -22,8 +22,6 @@
 
 		$scope.nextLink = $rootScope.projects[nextIndex].link;
 
-		console.log($rootScope.projects.tech);
-
 		$scope.techs = $scope.single.tech;
 
 	}]);

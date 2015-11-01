@@ -1,5 +1,16 @@
 var allProjects = [
 
+	// Bridgestone
+	{
+		link: 'bst',
+		title: 'Bridgestone',
+		copy: "While at Razorfish, I've collaborated with a team of developers on a total redesign for Bridgestone Tire's consumer-facing experience. This site bridges the gap between website and web application with advanced search functionality, fully responsive design, and product filtering/sorting capabilities. My input has included the construction of a multitude of components used site-wide, with extensive work done on the tire catalog, as well as continued maintenance and promotions support.",
+		webLink: 'http://www.bridgestonetire.com/',
+		thumb: 'bst-thumb.jpg',
+		images: ['images/bst-home.jpg', 'images/bst-catalog.jpg', 'images/bst-m.jpg'],
+		tech: ['CoffeeScript', 'Jade', 'Sass', 'jQuery', 'Handlebars', 'Underscore', 'Adobe AEM 6.0']
+	},
+
 	// Flycast
 	{
 		link: 'flyCast',
